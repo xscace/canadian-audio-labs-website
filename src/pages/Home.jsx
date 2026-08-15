@@ -370,6 +370,7 @@ export default function Home() {
               { title:'Acoustic enclosure engineering', body:'BEM-optimised enclosure geometry, constrained-layer damping, 6061-T6 CNC extrusion, transmission-line loading, port tuning.', pills:['BEM enclosure','CLD panels','6061-T6 Al','TL loading'] },
               { title:'Crossover network design', body:'LEAP 5 LR-24 alignment, in-house CNC-wound air-core inductors, Mundorf capacitor selection, group delay ≤ 0.3 ms target.', pills:['LR-24','Air-core L','GD ≤ 0.3 ms','LEAP 5'] },
               { title:'Manufacturing & quality engineering', body:'ISO 9001:2015 production, ±3σ SPC monitoring on all Thiele-Small parameters, Klippel production testing, IEC 60268-5 audit batches.', pills:['ISO 9001','SPC ±3σ','Klippel','IEC 60268-5'] },
+              { title:'Acoustic software & DSP algorithms', body:'Browser-based SPL simulation engine, X-Sense room correction, PsySculpt psychoacoustic bass extension, AI system configurator, and multiroom control SDK — all developed in-house and available for OEM white-label licensing.', pills:['Acoustic simulation','X-Sense','PsySculpt','AI configurator','mDNS sync','OEM SDK'] },
             ].map(d => (
               <Reveal key={d.title}>
                 <div className="h-disc-card">

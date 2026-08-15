@@ -4,6 +4,7 @@ const COLS = [
   { h: 'Company',    links: [['About CAL','/about'],['XSCACE Brand','/about#xscace'],['Our History','/about#history'],['Leadership','/about#team'],['Careers','/contact#careers']] },
   { h: 'Products',   links: [['Cane','/products#cane'],['QuadCane','/products#quadcane'],['Bonsai','/products#bonsai'],['Acacia Sub','/products#acacia'],['Air Amp','/products#airamp']] },
   { h: 'Technology', links: [['Nano Resonance™','/technology#nano'],['AeroFrame™','/technology#aero'],['PowerDense™','/technology#power'],['PrecisionXover™','/technology#xover'],['Benchmarks','/technology#specs']] },
+  { h: 'Software',   links: [['Simulation Engine','/software'],['DSP & Room Correction','/software'],['AI Configurator','/software'],['Multiroom Control','/software'],['OEM Licensing','/software']] },
   { h: 'Support',    links: [['Contact Sales','/contact'],['Technical Support','/contact'],['Press & Media','/contact'],['Dealer Applications','/contact'],['Warranty','/contact']] },
 ]
 
